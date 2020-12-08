@@ -1,4 +1,4 @@
-# dnSpy - [Latest release](https://github.com/0xd4d/dnSpy/releases) - [❤️ Donate](https://github.com/sponsors/0xd4d)
+# dnSpy - [Latest release](https://github.com/dnSpy/dnSpy/releases)
 
 dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available. Main features:
 
@@ -12,18 +12,24 @@ See below for more features
 
 ![edit-code-animated](images/edit-code-animated.gif)
 
+## Binaries
+
+https://github.com/dnSpy/dnSpy/releases
+
 ## Building
 
 ```PS
-git clone --recursive https://github.com/0xd4d/dnSpy.git
+git clone --recursive https://github.com/dnSpy/dnSpy.git
 cd dnSpy
 # or dotnet build
 ./build.ps1 -NoMsbuild
 ```
 
+To debug Unity games, you need this repo too: https://github.com/dnSpy/dnSpy-Unity-mono (or get the binaries from https://github.com/dnSpy/dnSpy/releases/unity)
+
 # Debugger
 
-- Debug .NET Framework, .NET Core and Unity game assemblies, no source code required
+- Debug .NET Framework, .NET and Unity game assemblies, no source code required
 - Set breakpoints and step into any assembly
 - Locals, watch, autos windows
 - Variables windows support saving variables (eg. decrypted byte arrays) to disk or view them in the hex editor (memory window)
@@ -88,7 +94,7 @@ cd dnSpy
 
 # Wiki
 
-See the [Wiki](https://github.com/0xd4d/dnSpy/wiki) for build instructions and other documentation.
+See the [Wiki](https://github.com/dnSpy/dnSpy/wiki) for build instructions and other documentation.
 
 # License
 
